@@ -64,7 +64,7 @@
       async function sendMsg() {}
 
       function getContext() {
-        if (liff.getContext() != null) {
+        if (liff.getContext()) {
           document.getElementById("type").append(liff.getContext().type);
           document
             .getElementById("viewType")
